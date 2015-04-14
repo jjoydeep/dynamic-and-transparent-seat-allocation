@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E Ticketing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tvUserName">Enter UserName</string>
+    <string name="tvHintUserName">Enter User Name</string>
+    <string name="tvPasswd">Password</string>
+    <string name="tvAdmin">Admin</string>
+    <string name="tvLogin">Login</string>
+    <string name="tvCancel">Cancel</string>
+    <string name="tvRegister">Register</string>
+    <string name="tvConfirm">ConfirmPassword</string>
+    <string name="tvAtvm">Account Number</string>
+    <string name="tvHintAtvm">Enter Account Number</string>
+    <string name="tvviewTicket">View Ticket</string>
+    <string name="tvBookTicket">Book Ticket</string>
+    <string name="tvChangePaswd">Change Password</string>
+    <string name="tvCheckBal">Check Balance</string>
+    <string name="tvUpdate">Update</string>
+    <string name="tvHintPass">Enter Old Password</string>
+    <string name="tvOldPass">Old Password</string>
+    <string name="tvNewPass">New Password</string>
+    <string name="tvConfirmNewpass">Confirm New Password</string>
+    <string name="tvUpdtePass">Update Password </string>
+    <string name="tvsrc">Source</string>
+    <string name="tvDestn">Destination</string>
+    <string name="tvDate">Date &amp; Time</string>
+    <string name="tvFair">Fair</string>
+    <string name="btnBooktic">Book Ticket</string>
+    <string name="tvBack">Back</string>
+    <string name="tvTicId">Ticket Id</string>
+    <string name="tvHintTicid">Enter Ticket Id</string>
+    <string name="tvCheck">Check</string>
+    <string name="tvAddBal">Add Balance</string>
+    <string name="tvChckTic">Check Ticket</string>
+    <string name="tvAmount">Amount</string>
+    <string name="tvHintAmount">Enter Amount</string>
+    <string name="tvRefill">Refill</string>
+    <string name="bal">Your Basic Fare is: </string>
+    <string name="tvAdult">No. of Adults</string>
+    <string name="tvChild">No. of Child</string>
+    <string name="tvTimming">Timmings</string>
+    <string name="tvDate1">Date</string>
+    <string name="tvAvail">Check Availability</string>
+    <string name="tv0">0</string>
+    <string name="tv1">1</string>
+	<string name="Rs">\u20B9</string> 
+</resources>

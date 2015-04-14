@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="20dp"
+    android:background="@drawable/newbg"
+    android:orientation="vertical" >
+      
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvUserName" />
+    
+	<EditText
+        android:id="@+id/edUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tvHintUserName"
+        android:layout_marginTop="10dp" >
+        <requestFocus />
+    </EditText>
+	<TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPasswd" />
+	<EditText
+        android:id="@+id/edPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp" >
+    </EditText>
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConfirm" />
+	<EditText
+        android:id="@+id/edConfirmPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp" >
+    </EditText>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAtvm" />
+	<EditText
+        android:id="@+id/edAtvmNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tvHintAtvm"
+        android:layout_marginTop="10dp" >
+    </EditText>
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center">
+	<Button
+	    android:id="@+id/btnRegister"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tvRegister"/>
+
+	<Button
+	    android:id="@+id/btnCancel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tvCancel" />
+	</LinearLayout>
+</LinearLayout>
+ </ScrollView>
